@@ -1,8 +1,6 @@
 #include "hashFile.h"
 
-/*
-    Arquivo responsável por testar a inserção de elementos na Hash File Extnsível.
-*/
+// Arquivo responsável por buscar um dado em uma hash file extensível.
 
 int main()
 {
@@ -15,5 +13,10 @@ int main()
     fgets(palavra, sizeof(palavra), stdin);
 
     inserirDadoHashFile(novaHash, palavra);
-    
+
+    int endereco = getEnderecoDiretorioHashFile(novaHash,palavra);
+    printf("Endereço do diretório : %d\n", endereco);
+
+    char* dado = getDadoHashfile(novaHash, endereco);
+    printf("Dado da hash: %s\n", dado);
 }
