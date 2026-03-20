@@ -6,7 +6,7 @@
 #include <string.h>
 
 /*
-    Arquivo .h destinado à implementação e uso de um hash file que contém baldes associados aos endereços binários.
+    Arquivo .h destinado à implementação e uso de um hash file extensível que contém baldes associados aos endereços binários.
 */
 
 typedef void* HashFile;
