@@ -36,21 +36,12 @@ HashFile organizarDadosHashFile(HashFile hashFile);
 /// @param hash Hash já existente
 /// @param palavra Palavra que será procurada
 /// @return O endereço do dado
-int getEnderecoDiretorioHashFile(HashFile hash, char* palavra);
+long getEnderecoDiretorioHashFile(HashFile hash, char* palavra);
 
 /// @brief Retorna um dado da Hash File
 /// @param hash Hash já existente
 /// @param enderecoDiretorio O endereco em binário do diretório
 /// @return O dado
 char* getDadoHashfile(HashFile hash, int enderecoDiretorio);
-
-
-
-
-
-
-
-
-
 
 #endif
