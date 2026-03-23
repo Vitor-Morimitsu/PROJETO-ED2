@@ -10,6 +10,7 @@
 */
 
 typedef void* HashFile;
+typedef void* Bucket;
 
 /// @brief Cria uma hashFile
 /// @return Retorna a hash criada
