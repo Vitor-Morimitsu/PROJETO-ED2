@@ -6,7 +6,6 @@
 #include <string.h>
 
 typedef void* HashFile;
-// Bucket removido daqui — é detalhe interno do .c
 
 /// @brief Cria uma hashFile
 /// @return Retorna a hash criada, ou NULL em caso de erro
